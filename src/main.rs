@@ -27,6 +27,11 @@ fn main() {
                     server.send_privmsg(&message.args[0],
                                         &*format!("The coin goes whirling through the air... {}",
                                                   choice.get(0).unwrap())).unwrap();
+                } else if msg.starts_with("!source") {
+                    server.send_privmsg(&message.args[0],
+                                        "Find my source here: \
+                                         https://github.com/wraithan/pdxrust-bot \
+                                         Contribute and teach me new things!").unwrap();
                 }
             }
         }
