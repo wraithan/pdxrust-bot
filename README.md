@@ -16,7 +16,14 @@ want to change the name in the source first.
 Welcoming PRs for features, code refactoring, etc. The bot currently using `!`
 as the prefix, but doesn't do any special parsing around that. All features will
 be entertained, but if it is more out there, then perhaps open an issue to
-discuss or bring it up in the channel
+discuss or bring it up in the channel.
+
+If you want help, ping in channel or wait until the next PDX Rust meetup and we
+can work on stuff together!
+
+Once you've had a PR landed, you'll be given the choice to be a committer on the
+repository. This will mean you can help triage issues, review pull requests, and
+land patches once those pull requests meet our standards.
 
 ## Code of Conduct
 
