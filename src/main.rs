@@ -29,9 +29,9 @@ fn main() {
                                                   choice.get(0).unwrap())).unwrap();
                 } else if msg.starts_with("!source") {
                     server.send_privmsg(&message.args[0],
-                                        "Find my source here: \
-                                         https://github.com/wraithan/pdxrust-bot \
-                                         Contribute and teach me new things!").unwrap();
+                                        "Find my source on github \
+                                         ( https://github.com/wraithan/pdxrust-bot ) \
+                                         contribute and teach me new things!").unwrap();
                 }
             }
         }

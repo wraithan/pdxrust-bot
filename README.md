@@ -23,5 +23,5 @@ discuss or bring it up in the channel
 As this bot lives in a channel governed by the
 [Rust Code of Conduct](https://www.rust-lang.org/conduct.html) so is this repo,
 the issue tracker, and pull requests. No features violating the CoC will be
-tolerated in the repo. If you fell that someone has violated this, please notify
+tolerated in the repo. If you feel that someone has violated this, please notify
 Wraithan.
