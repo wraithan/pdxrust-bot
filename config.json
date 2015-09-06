@@ -1,0 +1,25 @@
+{
+  "options": null,
+  "umodes": "+BR",
+  "channels": [
+    "#pdxrust",
+    "#pdxbots"
+  ],
+  "encoding": "UTF-8",
+  "use_ssl": false,
+  "port": 6667,
+  "server": "irc.freenode.net",
+  "password": "",
+  "realname": "pdxferris",
+  "username": "pdxferris",
+  "nickname": "pdxferris",
+  "alt_nicks": [
+    "pdxferris_",
+    "pdxferris__",
+    "pdxferris___",
+    "pdxferris____"
+  ],
+  "owners": [
+    "wraithan"
+  ]
+}
