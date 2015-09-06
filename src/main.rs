@@ -12,7 +12,7 @@ fn main() {
         let message = message.unwrap(); // We'll just panic if there's an error.
         if &message.command[..] == "PRIVMSG" {
             if let Some(msg) = message.suffix {
-                for command in commands.iter() {
+                for command in &commands {
                     if let Some(response) = command(&msg) {
                         server.send_privmsg(&message.args[0], &*response).unwrap();
                     }
